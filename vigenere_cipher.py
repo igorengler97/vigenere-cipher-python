@@ -15,7 +15,6 @@ def decoder(text, keyword):
             decoded_text += alphabet[key%26]
     return decoded_text
 
-
 def coder(text, keyword):
     pointer = 0
     new_keyword = ""
